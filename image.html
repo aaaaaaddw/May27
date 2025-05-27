@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+	<script>
+		function img1()
+		{
+			document.getElementById('img2').src='1.png';
+		}
+		function img2()
+		{
+			document.getElementById('img2').src=' ';
+		}
+	</script>
+	<h1>그림을 이용한 자바스크립트 이해</h1>
+	<img src='1_key.png' onclick='img1();'>
+	<img src='2_key.png' onclick='img2();'>
+	<br><br><br>
+	<img id='img2'>
+</body>
+</html>
